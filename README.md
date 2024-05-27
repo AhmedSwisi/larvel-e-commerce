@@ -1,3 +1,38 @@
+## Project Details
+This is a simple e-commerce demo made using Laravel and Inertia/React. The project is still in progress and I hope to add to it in the future.
+
+## Features
+- Shop Page in React where users can query and filter by product price and category
+- Product Page where a user can add a review to a product
+- Authentication using Breeze library
+
+## Prerequisites
+- PHP:7.3 or higher
+- Composer
+- Node.js and npm
+- Postgres SQL or any database supported by Laravel
+
+## Technologies and libraries
+- PHP Larvel framework
+- Inertia JS for React integration with php laravel
+- Typescript
+- Shadcn/Radix UI component library
+- Tailwind CSS
+- 
+
+## Setup
+If you want to run this project make sure you have the prerequisites installed and follow these steps:
+
+1. run composer install
+```
+composer install
+```
+2. run npm install
+```
+npm install
+```
+3. Setup environment variables for your database: See the [laravel documentation](https://laravel.com/docs/11.x/database ) for further details
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
