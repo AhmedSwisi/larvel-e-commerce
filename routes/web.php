@@ -7,7 +7,7 @@ use Inertia\Inertia;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ReviewController;
 
-Route::redirect('/', "/dashboard");
+Route::redirect('/', "/shop");
 
 
 Route::middleware(['auth','verified'])->group(function() {
@@ -24,11 +24,11 @@ Route::get('/users', function () {
     return Inertia::render('Users/User');
 });
 
-Route::get('/shop', [ProductController::class, 'index'])->name('shop.index');
+Route::get('/shop', [ProductController::class, 'index'])->name('shop.index')->middleware('auth');
 
-Route::get('/shop/{product}', [ProductController::class, 'show'])->name('shop.show');
+Route::get('/shop/{product}', [ProductController::class, 'show'])->name('shop.show')->middleware('auth');;
 
-Route::post('/shop/{product}', [ReviewController::class, 'store'])->name('reviews.store');
+Route::post('/shop/{product}', [ReviewController::class, 'store'])->name('reviews.store')->middleware('auth');;
 
 
 
