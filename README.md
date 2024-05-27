@@ -18,7 +18,6 @@ This is a simple e-commerce demo made using Laravel and Inertia/React. The proje
 - Typescript
 - Shadcn/Radix UI component library
 - Tailwind CSS
-- 
 
 ## Setup
 If you want to run this project make sure you have the prerequisites installed and follow these steps:
@@ -32,6 +31,16 @@ composer install
 npm install
 ```
 3. Setup environment variables for your database: See the [laravel documentation](https://laravel.com/docs/11.x/database ) for further details
+4. run vite development server:
+```
+npm run dev
+```
+5. run php development server:
+```
+php artisan serve
+```
+6. Open PHP development port in browser
+   
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
