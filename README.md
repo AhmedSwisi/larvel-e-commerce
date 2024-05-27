@@ -13,7 +13,7 @@ This is a simple e-commerce demo made using Laravel and Inertia/React. The proje
 - Postgres SQL or any database supported by Laravel
 
 ## Technologies and libraries
-- PHP Larvel framework
+- PHP Laravel framework
 - Inertia JS for React integration with php laravel
 - Typescript
 - Shadcn/Radix UI component library
